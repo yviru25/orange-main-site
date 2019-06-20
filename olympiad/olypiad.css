@@ -1,0 +1,123 @@
+.main-content-start{
+    margin-top: 100px;
+}
+
+/* Flat Page Title
+-------------------------------------------------- */
+.flat-title-page {
+    position: relative;
+    overflow: hidden;
+    background:chocolate;
+}
+
+.flat-title-page:after {
+   content: "";
+   background: url("../assets/images/title-page/bg-white-2.png") center center no-repeat;
+   height: 38px;
+   width: 1920px;
+   position: absolute;
+   bottom: 0;
+}
+
+.flat-title-page:before {
+    content: "";
+    border-top: 76px solid transparent;
+    border-right: 1920px solid rgba(255,255,255,0.54);
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+}
+
+.wrap-title-page {
+    position: relative;
+    padding: 94px 15px 159px;
+}
+
+.flat-title-page.undescription .wrap-title-page {
+    padding: 122px 15px 179px;
+}
+
+.flat-title-page.style2 .wrap-title-page {
+    padding: 94px 15px 103px;
+}
+
+.flat-title-page.style3 .wrap-title-page {
+    padding: 155px 15px 100px;
+}
+
+.flat-title-page.style4 .wrap-title-page  {
+    padding: 113px 15px 161px;
+}
+
+.flat-title-page h2.title {
+    margin-bottom: 15px;
+    margin-left: -3px;
+}  
+
+.flat-title-page h2.title a {
+    color: #fff;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+.flat-title-page p {
+    color: #fff;
+    font-size: 16px;
+    padding-right: 39%;
+    line-height: 25px;
+}
+
+.title-page {
+    position: relative;
+}
+
+/* breadcrumbs */
+.wrap-title-page.bg-img .breadcrumbs {
+    position: absolute;
+    bottom: 35px;
+    left: 14px;
+    z-index: 1;
+}
+
+.breadcrumbs.style2 {
+    margin-bottom: 55px;
+}
+
+.breadcrumbs ul li {
+    display: inline-block;
+}
+
+.breadcrumbs.style2 ul li:not(:last-child):after {
+    color: #fff;
+}
+.breadcrumbs ul li a {
+    font-size: 16px;
+    color: #192836;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.breadcrumbs.style2 ul li a {
+    color: #fff;
+}
+
+.breadcrumbs.style2 ul li a:hover {
+    color: #f3728b;
+}
+
+.wrap-title-page.bg-img .bg-breadcrumbs {
+    position: absolute;
+    right: 68.3%;
+    bottom: -40px;
+}
+
+.breadcrumbs.style3 ul li a,
+.breadcrumbs.style3 ul li:not(:last-child):after {
+    color: #fff;
+}
+
+.wrap-title-page.bg-img .bg-breadcrumbs.style2 {
+    right: 80.3%;
+}
+
+
