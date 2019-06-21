@@ -7,7 +7,7 @@
 .flat-title-page {
     position: relative;
     overflow: hidden;
-    background:chocolate;
+    background:skyblue;
 }
 
 .flat-title-page:after {
@@ -25,7 +25,6 @@
     border-right: 1920px solid rgba(255,255,255,0.54);
     position: absolute;
     bottom: 0;
-    z-index: 99;
 }
 
 .wrap-title-page {
@@ -119,5 +118,44 @@
 .wrap-title-page.bg-img .bg-breadcrumbs.style2 {
     right: 80.3%;
 }
+
+.team-member {
+    overflow: hidden;
+    margin-bottom: 27px;
+}
+
+/* icon-list */
+.gdlr-core-icon-list-item ul{ margin-left: 0px; list-style: none; margin-bottom: 0px; }
+.gdlr-core-icon-list-item ul li{ margin-bottom: 10px; }
+
+.gdlr-core-icon-list-item ul li:first-child{ padding-top: 0px; }
+.gdlr-core-icon-list-item .gdlr-core-icon-list-image{ float: left; margin-right: 15px; vertical-align: middle; position: relative; line-height: 1; margin-top: 3px; }
+.gdlr-core-icon-list-item .gdlr-core-icon-list-icon-wrap{ float: left; margin-right: 15px; vertical-align: middle; position: relative; line-height: 1; margin-top: 3px; }
+.gdlr-core-icon-list-item .gdlr-core-icon-list-icon,
+.gdlr-core-icon-list-item .gdlr-core-icon-list-icon-hover{ display: inline-block; font-size: 14px; width: 14px; text-align: center; 
+ 	transition: opacity 200ms, transform 200ms; -moz-transition: opacity 200ms, -moz-transform 200ms; 
+ 	-o-transition: opacity 200ms, -o-transform 200ms; -webkit-transition: opacity 200ms, -webkit-transform 200ms; }
+.gdlr-core-icon-list-item .gdlr-core-icon-list-content-wrap{ overflow: hidden; }
+.gdlr-core-icon-list-item .gdlr-core-icon-list-content{ font-size: 14px; display: block; }
+.gdlr-core-icon-list-item .gdlr-core-icon-list-caption{ font-size: 14px; display: block; margin-top: 4px; }
+
+.gdlr-core-icon-list-item.gdlr-core-with-divider ul li{ padding: 11px 0px;
+    border-bottom-width: 1px; border-bottom-style: solid; 
+	backface-visibility: hidden; /* prevent flickering on hover */ }
+.gdlr-core-icon-list-with-background-round .gdlr-core-icon-list-icon-wrap{ padding: 6px;
+    border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.gdlr-core-icon-list-with-background-round .gdlr-core-icon-list-content-wrap{ padding-top: 6px; }
+.gdlr-core-icon-list-with-background-circle .gdlr-core-icon-list-icon-wrap{ padding: 8px;
+    border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; }
+.gdlr-core-icon-list-with-background-circle .gdlr-core-icon-list-content-wrap{ padding-top: 6px; }
+
+.gdlr-core-icon-list-item li.gdlr-core-with-hover .gdlr-core-icon-list-icon{ opacity: 1; 
+	transform: scale(1); -moz-transform: scale(1); -webkit-transform: scale(1); -ms-transform: scale(1); }
+.gdlr-core-icon-list-item li.gdlr-core-with-hover .gdlr-core-icon-list-icon-hover{ opacity: 0; width: 0px; 
+ 	transform: scale(0); -moz-transform: scale(0); -webkit-transform: scale(0); -ms-transform: scale(0); }
+.gdlr-core-icon-list-item li.gdlr-core-with-hover:hover .gdlr-core-icon-list-icon{ opacity: 0; 
+	transform: scale(0); -moz-transform: scale(0); -webkit-transform: scale(0); -ms-transform: scale(0); }
+.gdlr-core-icon-list-item li.gdlr-core-with-hover:hover .gdlr-core-icon-list-icon-hover{ opacity: 1; 
+	transform: scale(1); -moz-transform: scale(1); -webkit-transform: scale(1); -ms-transform: scale(1); }
 
 
