@@ -1758,21 +1758,11 @@
 		padding: 8px 25px 10px 28px;
 	}
 
-	.flat-faqs .heading .title-small {
-        font-size: 14px;
-        color: #f3728b;
-        margin-bottom: 5px;
-    }
 
     .flat-faqs .heading .title {
         color: #192836;
         margin-bottom: 15px; ;
     }
-
-    .flat-faqs .heading {
-        margin-bottom: 84px;
-    }
-
 	.flat-faqs .toggle-title {
 		font-size: 22px;
 		font-weight: 700;
