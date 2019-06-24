@@ -421,6 +421,7 @@
     /* nav-menu */
     .nav-wrap {
         float: right;
+        margin-bottom: -28px;
     }
 
     #mainnav > ul {
