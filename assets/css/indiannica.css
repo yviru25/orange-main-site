@@ -548,7 +548,6 @@ body {
 	-webkit-transition:0.3s;
 	-moz-transition:0.3s;
 	-km-transition:0.3s;
-	font-family: titillium;
 }
 .footer_nav a:hover {
 	color:#f08228;
@@ -1427,9 +1426,9 @@ opacity:1;
     background: #f57448;
     font-size: 32px;
     color: #fff;
-    padding: 20px 0px 20px 50px;
-	position:relative;
-	margin-top:50px;
+    padding: 0px 0px 11px 50px;
+    position: relative;
+    margin-top: 50px;
 }
 .digital_title:after {
     width: 30px;
