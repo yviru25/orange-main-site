@@ -440,18 +440,21 @@
         display: block;
         font-weight: 700;
         padding: 0 33px 0 0;
-        font-family: titillium;
+    font-family: Muli,Arial,sans-serif;
+    color: #666;
     }
 
     #main-nav  ul > li > a {
         position: relative;
-        font-family: titillium;
+    font-family: Muli,Arial,sans-serif;
+    color: #666;
     }
 
     #main-nav  ul > li.active > a,
     #main-nav ul.submenu > li:hover > a {
         color: #f3728b;
-        font-family: titillium;
+    font-family: Muli,Arial,sans-serif;
+    color: #666;
     }
 
     #main-nav ul.submenu > li.item-has-child > a:after {
@@ -468,7 +471,8 @@
         margin-bottom: 2px;
         font-family: "Roboto";
         position: relative;
-        font-family: titillium;
+    font-family: Muli,Arial,sans-serif;
+    color: #666;
     }
 
     #main-nav ul.submenu {

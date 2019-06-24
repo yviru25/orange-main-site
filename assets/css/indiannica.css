@@ -190,7 +190,8 @@ body {
     -webkit-transition-duration: 0.3s;
 	transition-duration: 0.3s;
 	float: left;
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
  .navbar-nav ul li a span {
 	color:#fff;
@@ -312,7 +313,8 @@ body {
 	text-align:justify;
 	min-height:80px;
 	text-align: center;
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 .read_more {
 	text-align:center;
@@ -412,7 +414,8 @@ body {
 	font-size:15px;
 	line-height:25px;
 	color:#232323;
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 .teacher_title {
     float: left;
@@ -552,7 +555,8 @@ body {
 .footer_nav a:hover {
 	color:#f08228;
 	margin-left:5px;
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 
 .footer_contain h6 {
@@ -561,7 +565,8 @@ body {
 	font-size:20px;
 	color:#fff;
 	text-transform:uppercase;
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 .phone_number {
 	width:100%;
@@ -573,7 +578,8 @@ body {
 	font-size:20px;
 	color:#fff;
 	text-transform:uppercase;
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 .phone_number > h6 > span {
 	margin-right:5px;
@@ -581,7 +587,8 @@ body {
 .phone_number > p {
 	font-size:16px;
 	color:#fff;	
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 .social_network {
 	width:100%;
@@ -823,7 +830,8 @@ body {
 .weare_contain p {
     line-height: 22px;
     color: black;
-    font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 
 .we_right {
@@ -1402,7 +1410,8 @@ opacity:1;
 	-webkit-transition:0.3s;
 	-moz-transition:0.3s;
 	-km-transition:0.3s;
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 .top_0 {
 	margin-top:20px;
@@ -1455,8 +1464,8 @@ opacity:1;
     
 }
 .digital_text_box p {
-	line-height:22px;
-	font-family: Titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 .digital_new_box {
     width: 100%;
@@ -1700,7 +1709,7 @@ border-radius:5px;
     width: 150px;
 
 }
-.team_about p {
+.team_about p { color:#666;
 	line-height:22px;
 	text-align:justify;
 }
@@ -4755,7 +4764,8 @@ button, select {
 	color:#fff;
 	font-size:14px;
 	text-align:center;
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 	margin:0;
 }
 .contact_main {
@@ -5149,7 +5159,8 @@ button.close {
 	margin:0;
 	text-align:left;
 	line-height: 14px;
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 
 .chat_mss_left span:after {
@@ -5198,7 +5209,8 @@ button.close {
 	margin:0;
 	text-align:right;
 	line-height: 14px;
-	font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 .chat_div_main {
 	width:100%;
@@ -5566,7 +5578,8 @@ button.close {
     display: block;
     padding: 10px 15px;
     color: #000;
-    font-family: titillium;
+	color: #666;
+	font-family: Muli,Arial,sans-serif;
 }
 
 .nav>li>a:focus, .nav>li>a:hover {
