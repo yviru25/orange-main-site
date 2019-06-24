@@ -57,6 +57,7 @@
     color: #fff;
     font-weight: 700;
     font-family: "Poppins";
+    font-size: x-large;
 }
 
 .flat-title-page p {
@@ -95,7 +96,12 @@
     font-weight: 700;
     display: inline-block;
 }
-
+.breadcrumbs ul li:not(:last-child):after {
+    font-family: "bf-icon";
+    font-size: 11px;
+    color: #192836;
+    font-weight: 500;
+}
 .breadcrumbs.style2 ul li a {
     color: #fff;
 }
