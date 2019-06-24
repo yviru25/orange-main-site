@@ -1428,7 +1428,8 @@ opacity:1;
     color: #fff;
     padding: 0px 0px 11px 50px;
     position: relative;
-    margin-top: 50px;
+	margin-top: 50px;
+	
 }
 .digital_title:after {
     width: 30px;
