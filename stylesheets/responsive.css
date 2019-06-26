@@ -375,7 +375,6 @@
 	.event-detail-page,
 	.event-v2-page,
 	.faqs-page {
-		padding-top: 60px;
 		padding-bottom: 40px;
 	}
 
@@ -459,11 +458,11 @@
 	}
 
 	.breadcrumbs ul li a {
-		color: #fff;
+		color: #000;
 	}
 
 	.breadcrumbs ul li:not(:last-child):after {
-		color: #fff;
+		color: #000;
 	}
 
 	.wrap-title-page.bg-img .bg-breadcrumbs {
@@ -1132,3 +1131,8 @@
 		padding-left: 0;
 	}
 }
+
+
+
+
+	

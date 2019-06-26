@@ -29,24 +29,36 @@
 
 .wrap-title-page {
     position: relative;
-    padding: 94px 15px 159px;
+    padding: 208px 15px 134px;
 }
 
-.flat-title-page.undescription .wrap-title-page {
+@media only screen and (max-width: 760px) {
+    .wrap-title-page {
+        position: relative;
+        padding: 80px 15px 83px;
+    }
+}
+
+/* .wrap-title-page {
+    position: relative;
+    padding: 208px 15px 134px;
+} */
+
+/* .flat-title-page.undescription .wrap-title-page {
     padding: 122px 15px 179px;
 }
 
 .flat-title-page.style2 .wrap-title-page {
     padding: 94px 15px 103px;
-}
+} */
 
-.flat-title-page.style3 .wrap-title-page {
+/* .flat-title-page.style3 .wrap-title-page {
     padding: 155px 15px 100px;
-}
+} */
 
-.flat-title-page.style4 .wrap-title-page  {
+/* .flat-title-page.style4 .wrap-title-page  {
     padding: 113px 15px 161px;
-}
+} */
 
 .flat-title-page h2.title {
     margin-bottom: 15px;
@@ -61,7 +73,7 @@
 }
 
 .flat-title-page p {
-    color: #fff;
+    color: #000;
     font-size: 16px;
     padding-right: 39%;
     line-height: 25px;

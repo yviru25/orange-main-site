@@ -68,27 +68,10 @@
 
 	.flat-title-page .overlay {
 		background: #fff;
-		opacity: 0.71;
 		width: 100%;
 		height: 100%;
 		top: 0;
 		left: 0;
-	}
-
-	.flat-title-page.style2 .overlay {
-		opacity: 0.77;
-	}
-
-	.flat-title-page .overlay.style2 {
-		background: #f3728b;
-	}
-
-	.flat-title-page .overlay.style3 {
-		background: #4646c3;
-	}
-
-	.flat-title-page .overlay.style4 {
-		background: #192836;
 	}
 
 	.flat-feature .overlay {
