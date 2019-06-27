@@ -286,7 +286,7 @@
 	}
 
 	.border-f-e6f3ff {
-		border: 1px solid #e6f3ff;
+		border: 1px solid #c0dbf5;
 	}
 
 	.border-bt-e6f3ff {
@@ -1744,12 +1744,12 @@
         margin-bottom: 15px; ;
     }
 	.flat-faqs .toggle-title {
-		font-size: 22px;
-		font-weight: 700;
-		color: #192836;
+		font-size: 16px;
+		font-weight: 600;
+		color: #666;
 		cursor: pointer;
 		position: relative;
-		padding: 15px 30px 15px 0;
+		padding: 15px 35px 15px 0;
 	}
 
 	.flat-faqs .toggle-title:after {
@@ -1793,9 +1793,9 @@
 
 	.flat-faqs .active.toggle-title:after {
 		transform: translateY(-50%) rotate(90deg);
-		color: rgba(243,114,139,0.15);
+		color: #fff;
 		border: 1px solid rgba(243,114,139,0.15);
-		background: #fdeaee;
+		background: #f79270;
 	}
 
 /* Transition Hover
