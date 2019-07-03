@@ -659,8 +659,14 @@
 		transform: unset;
 	}
 
+	#header .logo {
+		width: 100%;
+		padding: 15px;
+	}
+
 	#header #logo {
-		width: 50%;
+		width: 100%;
+		padding: 15px;
 	}
 
 	#header .nav-wrap,

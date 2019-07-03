@@ -44,20 +44,23 @@ body {
 	z-index:7;
 	transition-duration:0.7s;
 }
+
+
 .logo {
-	float:left;
-	padding:3px 0;
+	float: left;
+	width: 100%;
+	padding: 30px;
 }
 .logo a {
 	outline:none;
 }
 .logo img {
-	width:187px;
 	transition-duration:0.7s;
 }
 .logo_img {
-	width:140px !important;
+	width:116px !important;
 	transition-duration:0.7s;
+	margin-top: -30px;
 }
 .nav_section{
 	/* float: right; */
@@ -66,7 +69,7 @@ body {
 	margin-top:15px !important;
 	transition-duration:0.7s;
 }
-.header_login_none {
+.header_login_none{
 	transition-duration:0.7s;
 	max-height:0px!important;
 	opacity:0;

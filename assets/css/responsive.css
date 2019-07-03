@@ -730,9 +730,9 @@
         background-color:transparent;
     }
     
-    .logo img {
-        width:150px;
-        padding: 5px 0 0px !important;
+    .logo img {    
+        padding: 0px 0 0px !important;
+        margin-top: -13px;
     }
     .carousel-control {
         opacity: 1;
@@ -1545,7 +1545,7 @@
     color: #000;   
  }
  .logo {
-        padding: 3px 0 10px;
+    padding: 11px 0;
  }
  .nav_section ul li a:hover:before {
      -webkit-transform: scaleY(1);
