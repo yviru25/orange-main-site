@@ -253,6 +253,19 @@ body {
 	color:#fff;
 	
 }
+
+.feature_title {
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 0 50px 0;
+    padding: 0;
+    /* color: #fff; */
+}
+
 .curri_contain {
 	width:100%;
 	float:left;
@@ -279,7 +292,6 @@ body {
 	width:100%;
 	background:#999;
 	float:left;
-	max-height:340px;
 	overflow:hidden;
 	position:relative;
 }
