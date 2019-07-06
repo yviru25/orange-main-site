@@ -52,22 +52,22 @@
 	.top .overlay {
 		position: absolute;
 		width: 100%;
-		height: 100%;
+		height: 68%;
 		top: 0;
 		left: 0;
-		background: #fff;
+		background: skyblue;
 	}
 
 	.top .overlay.v2 {
-		background: #fff;
+		background: skyblue;
 	}
 
 	.top .overlay.style2 {
-		background: #f3728b;
+		background: skyblue;
 	}
 
 	.flat-title-page .overlay {
-		background: #fff;
+		background: skyblue;
 		width: 100%;
 		height: 100%;
 		top: 0;
@@ -75,7 +75,7 @@
 	}
 
 	.flat-feature .overlay {
-		background: #f3728b;
+		background: skyblue;
 		opacity: 0.75;
 		width: 100%;
 		height: 100%;
@@ -328,9 +328,8 @@
 	.flat-info ul li:before {
 		content: "";
 		font-family: "FontAwesome";
-		color: #fff;
+		color: #000;
 		padding-right: 8px;
-		font-size: 12px;
 		font-weight: 400;
 		-webkit-transition: all 0.3s ease-in-out;
            -moz-transition: all 0.3s ease-in-out;
@@ -348,7 +347,7 @@
 	}
 
 	.top .flat-info {
-		margin-top: 15px;
+		margin-top: -3px;
 	}
 
 	/* style2 */

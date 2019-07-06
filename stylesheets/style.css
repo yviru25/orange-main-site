@@ -50,7 +50,7 @@
 /* Reset
 -------------------------------------------------- */
     html{overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
-    body{line-height:1;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+    body{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
     a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,caption,canvas,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,form,footer,header,hgroup,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,tt,table,tbody,textarea,tfoot,thead,time,tr,th,td,u,ul,var,video{font-family:inherit;font-weight:inherit;font-style:inherit;vertical-align:baseline;padding:0;border:0;outline:0;background:transparent}
     article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
     ol,ul{list-style:none}
@@ -115,7 +115,7 @@
 
     a:hover,
     a:focus {
-        color: #f3728b;
+        
         text-decoration: none;
         outline: 0;
         -webkit-transition: all 0.3s ease-in-out;
@@ -123,10 +123,6 @@
         -ms-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-    }
-
-    ul, ol {
-        padding: 0;
     }
 
     img {
@@ -360,14 +356,19 @@
 
 /* Top
 -------------------------------------------------- */
+
     .top {
         position: relative;
+    }
+
+    .top-nav-li{
+        padding: 0px 5px;
     }
 
     .top .flat-action.style1 {
         float: left;
         width: 16%;
-        margin-top: 14px;
+        margin-top: -3px;
     }
 
     .top .flat-adds {
@@ -424,7 +425,9 @@
         float: right;
         margin-bottom: -28px;
     }
-
+    #main-nav{
+        margin-top: -10px;
+    }
     #mainnav > ul {
         list-style: none;
         margin:  0;
@@ -480,11 +483,12 @@
     #main-nav ul.submenu {
         position: absolute;
         top: 150%;
-        left: -30px;
+        /* left: -30px; */
         width: 250px;
         background: #ffffff;
         box-shadow: 0px 5px 14.25px 0.75px rgba(0, 0, 0, 0.05);
-        padding: 15px 30px;
+        /* padding: 15px 30px; */
+        padding: 6px 10px;
         z-index: 9999;
         opacity: 0;
         visibility: hidden;
@@ -513,7 +517,9 @@
     }
 
     #main-nav > ul.menu li:hover > a {
-        color: #f3728b;
+        color: #fff;
+        background-color: skyblue;
+        padding-left: 33px;
     }
 
     #main-nav > ul.menu li:hover > ul.submenu {
@@ -1009,3 +1015,116 @@
     line-height: 1.7;
     font-family: Muli,Arial,sans-serif;
     }
+
+
+
+    .slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+      
+
+
+   
