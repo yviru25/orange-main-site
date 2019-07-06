@@ -426,7 +426,7 @@
         margin-bottom: -28px;
     }
     #main-nav{
-        margin-top: -10px;
+        margin-top: -13px;
     }
     #mainnav > ul {
         list-style: none;
@@ -518,7 +518,7 @@
 
     #main-nav > ul.menu li:hover > a {
         color: #fff;
-        background-color: skyblue;
+        background-color: #0d58ab;
         padding-left: 33px;
     }
 
@@ -1125,6 +1125,12 @@
     display: none;
 }
       
+/* >>>>>>>>>>>>>>>>>>>>>>>>>  Card Style <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
+.cardtopLabel{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
 
    

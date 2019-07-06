@@ -39,6 +39,9 @@
     .slider_text > h1 {
         font-size: 35px;
     }
+    .slider_text > h4 {
+        font-size: 35px;
+    }
     .teacher_title {
         width:auto;
     }
@@ -102,6 +105,9 @@
        width:42%;
     }
     .slider_text > h1 {
+        font-size: 25px;	
+    }
+    .slider_text > h4 {
         font-size: 25px;	
     }
     .nav_section ul li a {
@@ -577,8 +583,11 @@
         padding: 10px;
         background: rgba(0, 0, 0, 0.14);
     }
-    .slider_text > h1 {
-        font-size:25px;
+    .slider_text > h1  {
+        font-size:18px;
+    }
+    .slider_text > h4  {
+        font-size:18px;
     }
     .teacher_title_right {
         text-align:right;
@@ -921,7 +930,10 @@
     }
     
     .slider_text > h1 {
-        font-size: 25px;
+        font-size: 18px;
+    }
+    .slider_text > h4 {
+        font-size: 18px;
     }
     .slider_text > p {
         margin-bottom:10px;
@@ -1502,8 +1514,11 @@
     .filter_click {
         width:20%;
     }
-    .slider_text > h1 {
-        font-size: 22px;
+    .slider_text > h1  {
+        font-size: 18px;
+    }
+    .slider_text > h4  {
+        font-size: 18px;
     }
     .slider_text > p {
         font-size: 15px;
@@ -1643,8 +1658,15 @@
     .filter_click {
         width:20%;
     }
-    .slider_text > h1 {
+    .slider_text > h1  {
         font-size: 15px;
+    }
+    .slider_text > h4  {
+        font-size: 12px;
+        padding: 1px !important;
+    }
+    .image-card-container{
+        margin-top: 78px;
     }
     .slider_text > p {
         font-size: 14px;
@@ -1652,13 +1674,13 @@
     }
     .slider_text {
         top: 50px;
-        left: 0;
+        left: 45%;
         width: 80%;
         z-index: 999;
         right: 0;
         margin: auto;
         text-align:center;
-        background: rgba(0, 0, 0, 0.50);
+        background: inherit;
     }
     .slider_text > a {
         background: #fff;
@@ -1858,7 +1880,7 @@
         border-right: 170px solid transparent;
     }
     .slider_text {
-        top: 20px;
+        top: 5px;
         
     }
     .capture_code {

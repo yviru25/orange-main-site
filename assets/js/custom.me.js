@@ -157,9 +157,7 @@ $(".sl_right_2").css({"height":rightImgH+'px'});;
 $(".sl_right_3").css({"height":rightImgH+'px',"top":rightImgH+'px'});;
 $(".sl_right_4").css({"height":rightImgH+'px',"top":rightImgH+'px'});;
 console.log(x);
-$('#slider_indanicaCarousel').carousel({
-    pause: "hover"
-});
+
 });
 
 

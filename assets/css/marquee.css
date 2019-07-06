@@ -6,10 +6,6 @@
 	font-family: Arial, helvetica neue, Helvetica, sans-serif
 }
 
-body {
-	background: #f0f6ff
-}
-
 a {
 	color: #272727;
 	font-weight: 700;
@@ -49,7 +45,7 @@ h1 {
 
 .marquee-sibling {
 	padding: 0;
-	background: #3599dc;
+	background: #0d58ab;
 	width: auto;
 	height: 45px;
 	line-height: 42px;

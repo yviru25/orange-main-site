@@ -55,19 +55,19 @@
 		height: 68%;
 		top: 0;
 		left: 0;
-		background: skyblue;
+		background: #0d58ab;
 	}
 
 	.top .overlay.v2 {
-		background: skyblue;
+		background: #0d58ab;
 	}
 
 	.top .overlay.style2 {
-		background: skyblue;
+		background: #0d58ab;
 	}
 
 	.flat-title-page .overlay {
-		background: skyblue;
+		background: #0d58ab;
 		width: 100%;
 		height: 100%;
 		top: 0;
@@ -75,7 +75,7 @@
 	}
 
 	.flat-feature .overlay {
-		background: skyblue;
+		background: #0d58ab;
 		opacity: 0.75;
 		width: 100%;
 		height: 100%;
