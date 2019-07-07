@@ -52,7 +52,7 @@
 	.top .overlay {
 		position: absolute;
 		width: 100%;
-		height: 80%;
+		height: 68%;
 		top: 0;
 		left: 0;
 		background: #0d58ab;
@@ -67,7 +67,7 @@
 	}
 
 	.flat-title-page .overlay {
-		background: #0d58ab;
+		background: white;
 		width: 100%;
 		height: 100%;
 		top: 0;
