@@ -52,7 +52,7 @@
 	.top .overlay {
 		position: absolute;
 		width: 100%;
-		height: 68%;
+		height: 80%;
 		top: 0;
 		left: 0;
 		background: #0d58ab;
@@ -358,17 +358,17 @@
 
 	.style2.flat-info a,
 	.style2.flat-info li:before {
-		color: #515e6f;
+		color: #fff;
 	}
 
 	.style2.flat-info li:hover a,
 	.style2.flat-info li:hover:before {
-		color: #f3728b;
+		color: #fff;
 	}
 
 	.style2.flat-info.v2 li:hover a,
 	.style2.flat-info.v2 li:hover:before {
-		color: #ec5252;
+		color: #fff;
 	}
 
 /* Flat Action
@@ -396,19 +396,19 @@
 	.flat-action.style2 ul li {
 		border: 1px solid rgba(209,209,255,0.18);
 		padding: 5px 14px 0 10px;
-		margin: 0 -2px;
+		margin: 0 -3px;
 		border-bottom: 0;
 	}
 
 	.flat-action.style2 ul li a {
-		color: #98aac2;
+		color: #fff;
 	}
 
 	.flat-action.style2 ul li:before {
 		content: "";
 		padding-right: 3px;
 		font-family: "Font Awesome 5 Free";
-		color: #98aac2;
+		color: #fff;
 		-webkit-transition: all 0.3s ease-in-out;
            -moz-transition: all 0.3s ease-in-out;
             -ms-transition: all 0.3s ease-in-out;
@@ -418,12 +418,12 @@
 
 	.flat-action.style2 ul li:hover a,
 	.flat-action.style2 ul li:hover:before {
-		color: #f3728b; 
+		color: #fff; 
 	}
 
 	.flat-action.style2.v2 ul li:hover a,
 	.flat-action.style2.v2 ul li:hover:before {
-		color: #ec5252; 
+		color: #fff; 
 	}
 
 	.flat-action.style2 ul li.register:before {
@@ -453,7 +453,7 @@
 
 	.flat-adds .datetime {
 		display: inline;
-		background: #fa778a;
+		background: #fff;
 		border-radius: 5px;
 		padding: 4px 7px;
 		font-size: 12px;
@@ -465,7 +465,7 @@
 		position: absolute;
 		width: 105px;
 		height: 87px;
-		background: #f3728b;
+		background: #fff;
 		font-weight: 900;
 		color: #fff;
 		padding-top: 20px;

@@ -358,7 +358,7 @@
 -------------------------------------------------- */
 
     .top {
-        position: relative;
+        position: initial;
     }
 
     .top-nav-li{
@@ -381,7 +381,7 @@
 
     /* style2 */
     .top .socails ul li a {
-        color: #515e6f;
+        color: #fff;
     }
 
     .top .socails ul li {
@@ -395,16 +395,15 @@
     }
 
     .top .socails ul li a:hover {
-        color: #f3728b;
+        color: #fff;
     }
 
     .top .socails.v2 ul li a:hover {
-        color: #ec5252;
+        color: #fff;
     }
 
     .top .flat-action.style2 {
-        width: 32.5%;
-        float: left;
+        float: right;
     }
 
 /* Header
