@@ -502,7 +502,6 @@
         top: 100%;
         opacity: 1;
         visibility: visible;
-        width: max-content;
     }
 
     #main-nav ul.submenu li ul {
