@@ -255,19 +255,29 @@ body {
     text-align: center;
     width: 100%;
     float: left;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0px 0 50px 0;
     padding: 0;
     /* color: #fff; */
 }
+/* .feature_title:after{
+	  content: '';
+	  display: block;
+	  vertical-align: bottom;
+	  width: 78%;
+	  height: 2px;
+	  margin-left: 10%;
+	  margin-top: 20px;
+	  background-color: rgb(18, 110, 197);
+} */
 
 .unique_olym_title {
     text-align: center;
     width: 100%;
     float: left;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
     margin: 0px 0 23px 0;
@@ -278,12 +288,21 @@ body {
 .ourClient_title{
 	text-align: center;
 	width: 100%;
-	font-size: 20px;
+	font-size: 25px;
 	text-transform: uppercase;
 	margin: 0px 0px -19px 0px;
 	color: #000;
 }
-
+/* .ourClient_title:after{
+	content: '';
+	display: block;
+	vertical-align: bottom;
+	width: 78%;
+	height: 2px;
+	margin-left: 10%;
+	margin-top: 20px;
+	background-color: rgb(18, 110, 197);
+} */
 
 .curri_contain {
 	width:100%;
@@ -396,6 +415,7 @@ body {
 	margin-top:30px;
 	position:relative;
 	overflow:hidden;
+	margin-bottom: -10px;
 }
 .teacher_row {
 	width:100%;
