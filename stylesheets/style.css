@@ -1123,7 +1123,7 @@
     display: none;
 }
       
-/* >>>>>>>>>>>>>>>>>>>>>>>>>  Card Style <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>  blinking Text Style <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 .cardtopLabel{
     color: #fff;
@@ -1142,3 +1142,45 @@
     100%{   color: red;    }
 }
    
+
+/* ================ Breadcrumb =============================== */
+
+.overlay, .overlay-2 {
+    position: relative;
+  }
+  .overlay-2::before {
+    opacity: 0;
+  }
+  .overlay::before, .overlay-2::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+  .ptb-25 {
+    padding: 15px 0;
+  }
+  .broder-bottom {
+    border-bottom: 1px solid #ddd;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-uppercase {
+    text-transform: uppercase;
+  }
+  .breadcrumb-list ul li.active a{
+    color: #0d58ab;
+  }
+  
+  .breadcrumb-list ul li a{
+    font-weight: 600;
+  }
+  
+  .breadcrumb-list li {
+    list-style: none;
+    display: inline-block;
+  }
