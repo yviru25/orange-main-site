@@ -2586,13 +2586,14 @@
 	}
 
 	.course-content  .wrap-rating-price {
-		padding: 12px 0 9px 31px;
+		padding: 12px 0 9px 0px;
 		position: relative; 
 		-webkit-transition: all 0.3s ease-in-out;
 		-moz-transition: all 0.3s ease-in-out;
 		-ms-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
+		text-align: center;
 	}
 
 	.course-content .price {
