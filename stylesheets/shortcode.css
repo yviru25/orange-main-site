@@ -140,7 +140,7 @@
 		width: 150%;
 		height: 100%;
 		z-index: -1;
-		background-color: #f3728b;
+		background-color: #064eb9;
 		-webkit-transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -4em, 0);
 		transform: rotate3d(0, 0, 1, -45deg) translate3d(0, -4em, 0);
 		-webkit-transform-origin: 0% 100%;
@@ -1854,8 +1854,8 @@
 	}
 
 	.transition-img-socails .socails ul li a {
-		width: 48px;
-		height: 40px;
+		width: 64px;
+		height: 45px;
 		line-height: 40px;
 		display: block;
 		text-align: center;
@@ -1864,8 +1864,8 @@
 	}
 
 	.transition-img-socails .socails ul li a:hover {
-		color: #f3728b;
-		border: 1px solid #f3728b;
+		color: #1f6815;
+		border: 1px solid #1f6815;
 	}
 
 	/* Transition Hover Plus */
