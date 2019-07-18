@@ -254,9 +254,8 @@ body {
 .feature_title {
     text-align: center;
     width: 100%;
-    float: left;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 600;
     text-transform: uppercase;
     margin: 0px 0 50px 0;
     padding: 0;
@@ -277,8 +276,8 @@ body {
     text-align: center;
     width: 100%;
     float: left;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 600;
     text-transform: uppercase;
     margin: 0px 0 23px 0;
     padding: 0;
@@ -288,10 +287,11 @@ body {
 .ourClient_title{
 	text-align: center;
 	width: 100%;
-	font-size: 25px;
+	font-size: 28px;
 	text-transform: uppercase;
 	margin: 0px 0px -19px 0px;
 	color: #000;
+	font-weight: 600;
 }
 /* .ourClient_title:after{
 	content: '';
@@ -711,7 +711,7 @@ body {
 /*Feature Product */
 .feature_text {
     position: absolute;
-    left: 0;
+	left: 0;
     top: 10px;
     font-size: 35px;
     color: #fff;
@@ -742,14 +742,14 @@ body {
 .feature {
     width: 100%;
     float: left;
-    padding: 50px 40px;
+    padding: 30px 0px;
 	position:relative;
 	z-index: 1;
 }
 .unique_olym {
     width: 100%;
     float: left;
-    padding: 20px 40px;
+    padding: 20px 0px;
 	position:relative;
 	z-index: 1;
 	background: #0d58ab;
@@ -758,7 +758,7 @@ body {
 .prepare-test-case {
     width: 100%;
     float: left;
-    padding: 20px 40px;
+    padding: 20px 0px;
 	position:relative;
 	z-index: 1;
 	background: #486885;
@@ -767,7 +767,6 @@ body {
 .our-clients {
     width: 100%;
     float: left;
-    padding: 20px 40px;
 	position:relative;
 	z-index: 1;
 	background: #fff;
@@ -5821,4 +5820,13 @@ marquee:hover {
 	  z-index: 10;
 	  width: 188px;
 	  float: left;
+  }
+
+  .header-wrap{
+	  margin-top: 5px;
+  }
+
+  .btn-warning{
+	background-color: #337ABA !important;
+    border-color: #337ABA !important;
   }

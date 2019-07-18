@@ -130,6 +130,11 @@
         height: auto;       
     }
 
+    .small-img {
+        max-width: 50% !important;
+        height: auto;       
+    }
+
     b, strong {
         font-weight: 900;
     }
@@ -422,7 +427,7 @@
     /* nav-menu */
     .nav-wrap {
         float: right;
-        margin-bottom: -28px;
+        margin-bottom: -10px;
     }
     #main-nav{
         margin-top: -13px;
@@ -1035,9 +1040,6 @@
 .slick-list
 {
     position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
     padding: 0;
 }
 .slick-list:focus
