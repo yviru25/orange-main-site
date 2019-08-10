@@ -155,13 +155,13 @@
     } 
 
     .flat-button.btn-cart {
-        color: #192836;
+        color: #fff;
         display: block;
         line-height: 45px;
         font-family: "Poppins";
         font-size: 14px;
         font-weight: 700;
-        background: #fff;
+        background: #e2a477;
     }
 
     .flat-button.btn-cart:hover:after,
