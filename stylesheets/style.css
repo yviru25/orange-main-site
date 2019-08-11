@@ -460,6 +460,12 @@
     color: #666;
     }
 
+    #main-nav  ul.menu > li.active > a{
+        color: #fff !important;
+        background-color: #0d58ab;
+        padding-left: 33px;
+    }
+
     #main-nav  ul > li.active > a,
     #main-nav ul.submenu > li:hover > a {
         color: #f3728b;

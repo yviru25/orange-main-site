@@ -275,11 +275,11 @@ body {
 .unique_olym_title {
     text-align: center;
     width: 100%;
-    float: left;
+   /*  float: left; */
     font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
-    margin: 0px 0 23px 0;
+    /* margin: 0px 0 23px 0; */
     padding: 0;
     /* color: #fff; */
 }
@@ -561,7 +561,7 @@ body {
 .footer {
     width: 100%;
     float: left;
-    background: #000;
+    background: #0d58ab;
     padding: 30px 40px 20px 40px;
 }
 
@@ -752,7 +752,7 @@ body {
     padding: 20px 0px;
 	position:relative;
 	z-index: 1;
-	background: #0d58ab;
+	background: #07e9f0;
 }
 
 .prepare-test-case {
@@ -761,7 +761,6 @@ body {
     padding: 20px 0px;
 	position:relative;
 	z-index: 1;
-	background: #486885;
 }
 
 .our-clients {
@@ -770,6 +769,7 @@ body {
 	position:relative;
 	z-index: 1;
 	background: #fff;
+	margin-top: 10px;	
 }
 
 .feature_picture {
@@ -1558,6 +1558,7 @@ opacity:1;
 	z-index: 1;
 	padding:20px 0;
 	overflow:hidden;
+	background: #07e9f0;
 }
 
 .digital_pictures {
@@ -4838,9 +4839,9 @@ button, select {
 .copyright {
 	width:100%;
 	float:left;
-	background:#000;
+	background:#0d58ab;
 	padding:15px;
-	border-top: solid 1px #000;
+	border-top: solid 1px rgb(26, 59, 150);
 
 }
 
