@@ -5831,3 +5831,10 @@ marquee:hover {
 	background-color: #337ABA !important;
     border-color: #337ABA !important;
   }
+  .gdlr-core-skin-divider{
+	margin-bottom: 0px !important;
+  }
+
+  .wrap-rating-price a:hover{
+	background-color: blueviolet !important;
+ }

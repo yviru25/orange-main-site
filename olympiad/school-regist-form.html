@@ -17,6 +17,17 @@
 <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
 <link rel="stylesheet" type="text/css" href="../stylesheets/responsive.css">
 <link rel="stylesheet" type="text/css" href="../stylesheets/colors/color1.css" id="colors">
+<style>
+   input:required { 
+     border-left: 2px solid red;
+   }
+   select:required { 
+     border-left: 2px solid red;
+   }
+   textarea:required{
+    border-left: 2px solid red;
+   }
+</style>
 </head>
 <body>
     <div class="top border-bt-d1d1ff ">
@@ -157,7 +168,7 @@
             </div>
         </div>
     </div>
-    <div class="breadcrumb-area ptb-25 broder-bottom">
+   <!--  <div class="breadcrumb-area ptb-25 broder-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -171,7 +182,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="content-wrap shop-page">
@@ -196,7 +207,7 @@
                                     </div>
                                     <div class="col-sm-6 col-md-6">
                                         <div class="form-group">
-                                           <select class="form-control" id="exampleFormControlSelect1">
+                                           <select class="form-control" id="exampleFormControlSelect1" required>
                                             <option selected="selected">Select Country</option>
                                             <option>India</option>
                                           </select>
@@ -204,7 +215,7 @@
                                     </div>
                                     <div class="col-sm-6 col-md-6">
                                         <div class="form-group">
-                                           <select class="form-control" id="exampleFormControlSelect1">
+                                           <select class="form-control" id="exampleFormControlSelect1" required>
                                             <option selected="selected">Select State</option>
                                             <option>Uttar Pradesh</option>
                                            </select>
@@ -212,7 +223,7 @@
                                     </div>
                                     <div class="col-sm-6 col-md-6">
                                         <div class="form-group">
-                                            <select class="form-control" id="exampleFormControlSelect1">
+                                            <select class="form-control" id="exampleFormControlSelect1" required>
                                                 <option selected="selected">Select City</option>
                                                 <option>Ghaziabad</option>
                                                 <option>Noida</option>
@@ -221,17 +232,9 @@
                                     </div>
                                     <div class="col-sm-6 col-md-6">
                                         <div class="form-group">
-                                            <select class="form-control" id="exampleFormControlSelect1">
-                                                <option selected="selected">Select Post Code</option>
-                                                <option>201010</option>
-                                                <option>201012</option>
-                                            </select>
+                                                <input type="text" class="form-control" 
+                                                onkeypress='return event.charCode >= 48 && event.charCode <= 57' id="p_name" placeholder="Postal Code" required>
                                         </div>
-                                    </div>
-                                    <div class="col-sm-6 col-md-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="p_name" placeholder="Website" required>
-                                        </div>  
                                     </div>
                                     <div class="col-sm-6 col-md-6">
                                         <div class="form-group">
@@ -252,13 +255,20 @@
                                     </div>
                                     <div class="col-sm-6 col-md-6">
                                         <div class="form-group">
-                                            <input type="number" class="form-control" id="p_email" placeholder="Mobile Number" required="">
+                                            <input type="text" class="form-control" 
+                                            onkeypress='return event.charCode >= 48 && event.charCode <= 57' id="p_email" placeholder="Mobile Number" required="">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
+                                    <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" id="p_name" placeholder="Website">
+                                            </div>  
+                                        </div>
                                 </div>
+                                
                                 <div class="form-group">
-                                     <textarea id="p_message" class="form-control" rows="4" placeholder="Enter Your Message"></textarea>
+                                     <textarea id="p_message" class="form-control" rows="4" placeholder="Enter Your Message" required></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group">
