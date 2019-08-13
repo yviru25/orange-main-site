@@ -20,7 +20,44 @@
 <link rel="stylesheet" type="text/css" href="../stylesheets/responsive.css">
 <link rel="stylesheet" type="text/css" href="../stylesheets/colors/color1.css" id="colors">
 
+<style type="text/css">
 
+/* .zoom:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+  -webkit-transition: all 2s ease;
+     -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+          transition: all 2s ease;
+          z-index: 1;
+         
+} */
+
+
+.zoom {      
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in;  
+}     
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(1.5);    
+-moz-transform: scale(1.5);  
+-webkit-transform: scale(1.5);  
+-o-transform: scale(1.5);  
+transform: scale(1.5);    
+position:relative;      
+z-index:100;  
+}
+</style>
 </head>
 <body>
    
@@ -95,14 +132,14 @@
                                               <li><a href="#">Upcoming Olympiads</a></li> 
                                             </ul>
                                         </li>
-                                        <li>
-                                            <a href="../nbse/nbse.html">NBSE</a>
-                                        </li>
-                                        <li>
-                                            <a href="../MMA/mma.html">Mind Maps</a>
-                                        </li>
                                         <li class="active">
-                                            <a href="atl.html">ATL</a>
+                                            <a href="nbse.html">NBSE</a>
+                                        </li>
+                                        <li>
+                                            <a href="../MMA/mma.html">Mind Maps</a></li>
+                                        </li>
+                                        <li>
+                                            <a href="../ATL/atl.html">ATL</a>
                                         </li>
                                         <li>
                                             <a href="#"> Results</a>
@@ -143,7 +180,7 @@
 
 <div class="banner-area pt-130 pb-120 overlay-2">
         <div>
-          <img src="images/atl strip.png" class="img-responsive" alt="Responsive image" " alt="" />
+          <img src="images/nbse.png" class="img-responsive" alt="Responsive image" " alt="" />
         </div> 
         <div class="container">
             <div class="row">
@@ -152,288 +189,12 @@
             </div>
         </div>
     </div>
-<!--     <div class="breadcrumb-area ptb-25 broder-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="breadcrumb-list text-center text-uppercase">
-                        <ul>
-                            <li><a href="../index.html">home</a><span class="divider"> > </span></li>
-                            <li class="active"><a href="../ATL/atl.html">ATL</a></li>
-                        </ul>							
-                    </div>
-                </div>
-            </div>
-        </div>
-</div> -->
-
-<div class="content-wrap faqs-page" style="margin-top: 20px;">
-    <div class="container-fluid">
-        <div class="content-page-wrap">
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10">
-                    <div class="flat-faqs">
-                      <div class="gdlr-core-pbf-element">
-                        <div class="heading flat-text-center">
-                            <h2 class="title font-Poppins text-center">Atal Tinkering Lab</h2>
-                        </div>
-                        <div class="gdlr-core-pbf-element">
-                            <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 25px ;">
-                            <ul>
-                                <li class=" gdlr-core-skin-divider" style="margin-bottom: 22px ;"><span class="gdlr-core-icon-list-icon-wrap" style="margin-top: 5px ;"><i class="gdlr-core-icon-list-icon fa fa-dot-circle-o" style="color: #e89232 ;font-size: 18px ;width: 18px ;" ></i></span>
-                                    <div class="gdlr-core-icon-list-content-wrap">
-                                        <span class="gdlr-core-icon-list-content" style="font-size: 15px ;">
-                                            ATL is an approach of Central government of India to create an environment of scientific
-                                            temperament, innovation, creativity amongst Indian Students. It is a step towards a new India.
-                                        </span>
-                                    </div>
-                                    <li class=" gdlr-core-skin-divider" style="margin-bottom: 22px ;"><span class="gdlr-core-icon-list-icon-wrap" style="margin-top: 5px ;"><i class="gdlr-core-icon-list-icon fa fa-dot-circle-o" style="color: #e89232 ;font-size: 18px ;width: 18px ;" ></i></span>
-                                        <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 15px ;">
-                                        <span>
-                                            Since the last few decades, our education system has seen a paradigm shift. Today, with this
-                                            approach of inculcating Hands on Methodology in the current education scenario we have
-                                            resolved the need of the hour.
-                                        </span>
-                                        </div>
-                                    </li>    
-                                    <li class=" gdlr-core-skin-divider" style="margin-bottom: 22px ;"><span class="gdlr-core-icon-list-icon-wrap" style="margin-top: 5px ;"><i class="gdlr-core-icon-list-icon fa fa-dot-circle-o" style="color: #e89232 ;font-size: 18px ;width: 18px ;" ></i></span>
-                                        <div class="gdlr-core-icon-list-content-wrap">
-                                            <span class="gdlr-core-icon-list-content" style="font-size: 15px ;">
-                                                ATL lab would teach students essential 21 st -century skills which will help them in developing
-                                                their professional and personal skills. Skilled India is the need of the hour and each step taken
-                                                this dream should be welcomed and we should work towards it together for a better India.
-                                            </span>
-                                        </div>
-                                    </li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="gdlr-core-pbf-element">
-                            <div class="heading flat-text-center">
-                                <h2 class="title font-Poppins text-center">Background</h2>
-                            </div>
-                            <div class="gdlr-core-pbf-element">
-                                <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 25px ;">
-                                    <span class="gdlr-core-icon-list-content" style="font-size: 15px ;">
-                                            The Government of India has setup the Atal Innovation Mission (AIM) at NITI Aayog. Realizing
-                                            the need to create scientific temper and cultivate the spirit of curiosity and innovation among
-                                            young minds, AIM proposes to support the establishment of a network of Atal Tinkering
-                                            Laboratories (ATL). ATL is a workspace where young minds can give shape to their ideas
-                                            through hands-on do-it-yourself mode and learn innovation skills. The vision is to cultivate 1
-                                            Million children in India as Neoteric Innovators. The Government of India has setup the Atal
-                                            Innovation Mission (AIM) at NITI Aayog. Realizing the need to create scientific temper and
-                                            cultivate the spirit of curiosity and innovation among young minds, AIM proposes to support the
-                                            establishment of a network of Atal Tinkering Laboratories (ATL). ATL is a workspace where
-                                            young minds can give shape to their ideas through hands-on do-it-yourself mode and learn
-                                            innovation skills. The vision is to cultivate 1 Million children in India as Neoteric Innovators.
-                                    </span>
-                            </div>
-                            </div>
-                        </div>
-
-
-                        <div class="gdlr-core-pbf-element">
-                                <div class="heading flat-text-center">
-                                    <h2 class="title font-Poppins text-center">Objectives</h2>
-                                </div>
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 25px ;">
-                                        <span class="gdlr-core-icon-list-content" style="font-size: 15px ;">
-                                                The objective of this scheme is to foster curiosity, creativity, and imagination in young minds
-                                                and inculcate skills such as design mindset, computational thinking, adaptive learning, physical
-                                                computing etc. Young children will get a chance to work with tools and equipment to understand
-                                                what, how and why aspects of STEM (Science, Technology, Engineering, and Math) The
-                                                objective of this scheme is to foster curiosity, creativity, and imagination in young minds and
-                                                inculcate skills such as design mindset, computational thinking, adaptive learning, physical computing etc. Young children will get a chance to work with tools and equipment to understand
-                                                what, how and why aspects of STEM (Science, Technology, Engineering and Math)
-                                        </span>
-                                        <span class="gdlr-core-icon-list-content" style="font-size: 15px ;">
-                                                ATL would contain educational and learn “do it yourself” kits and equipment on – science,
-                                                electronics, robotics, open source microcontroller boards, sensors and 3D printers etc.
-                                        </span>
-
-                                </div>
-                                </div>
-                            </div>
-
-                            <div class="gdlr-core-pbf-element">
-                                    <div class="heading flat-text-center">
-                                        <h2 class="title font-Poppins text-center">Product Offering</h2>
-                                    </div>
-                                    <div class="gdlr-core-pbf-element">
-                                            <div class="col-md-12">
-                                                    <div class="container-fluid">
-                                                        <div class="row">
-                                                    <div class="col-md-3">
-                                                            
-                                                        <div class="thumbnail">
-                                                                <h4 class="text-center text-bold">Package 1</h4>
-                                                        <a href="images/ATL1.jpg" target="_blank">
-                                                            <img src="images/ATL1.jpg" alt="Lights" style="width:100%"><hr>
-                                                            <div class="caption text-center">
-                                                            <p>
-                                                                Electronics Development,Robotics,
-                                                                Internet of Things and Sensors
-                                                            </p>
-                                                            </div>
-                                                        </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="thumbnail">
-                                                                <h4 class="text-center text-bold">Package 2</h4>
-                                                        <a href="images/ATL2.jpg" target="_blank">
-                                                            <img src="images/ATL2.jpg" alt="Nature" style="width:100%"><hr>
-                                                            <div class="caption text-center">
-                                                                <p>
-                                                                    Rapid Prototyping
-                                                                    Tools and
-                                                                    Equipment
-                                                                </p>
-                                                            </div>
-                                                        </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                        <div class="thumbnail">
-                                                            <h4 class="text-center text-bold">Package 3</h4>
-                                                        <a href="images/ATL3.jpg" target="_blank">
-                                                            <img src="images/ATL3.jpg" alt="Fjords" style="width:100%"><hr>
-                                                            <div class="caption text-center">
-                                                                <p>
-                                                                    Mechanical,
-                                                                    Electrical and
-                                                                    Measurement Tools
-                                                                </p>
-                                                            </div>
-                                                        </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-3">
-                                                            
-                                                        <div class="thumbnail">
-                                                                <h4 class="text-center text-bold">Package 4</h4>
-                                                            <a href="images/ATL4.jpg" target="_blank">
-                                                            <img src="images/ATL4.jpg" alt="Fjords" style="width:100%"><hr>
-                                                            <div class="caption text-center">
-                                                                <p>
-                                                                    Power Supply &amp;
-                                                                    Accessories and
-                                                                    Safety Equipment                    
-                                                                </p>
-                                                            </div>
-                                                            </a>
-                                                        </div>
-                                                        </div>
-                                                    </div>
-                                                    </div>     
-                                             </div>
-                                    </div>
-                                </div>    
-                        
-
-
-                                <!-- Images Gallary -->
-
-
-                                <div class="container-fluid">
-                                        <div class="heading flat-text-center">
-                                            <h2 class="title font-Poppins text-center">Image Gallary</h2>
-                                        </div>
-                                        <div class="row port-page">
-                                
-                                            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                                                <img src="images/atl-img-glry/1.jpg" class="img-responsive center-block port-image">
-                                            </div>
-                                            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                                                <img src="images/atl-img-glry/2.jpg" class="img-responsive center-block port-image">
-                                            </div>
-                                            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                                                <img src="images/atl-img-glry/3.jpg" class="img-responsive center-block port-image">
-                                            </div>
-                                            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                                                <img src="images/atl-img-glry/4.jpg" class="img-responsive center-block port-image">
-                                            </div>
-                                            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                                                <img src="images/atl-img-glry/5.jpg" class="img-responsive center-block port-image">
-                                            </div>
-                                            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                                                <img src="images/atl-img-glry/6.jpg" class="img-responsive center-block port-image">
-                                            </div>
-                                            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                                                    <img src="images/atl-img-glry/8.jpg" class="img-responsive center-block port-image">
-                                            </div>
-                                            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                                                <img src="images/atl-img-glry/9.jpg" class="img-responsive center-block port-image">
-                                            </div>
-                                            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                                                <img src="images/atl-img-glry/10.jpg" class="img-responsive center-block port-image">
-                                            </div>
-                                
-                                
-                                  </div>
-                                </div>
-
-
-                                <div class="container-fluid">
-                                        <div class="heading flat-text-center">
-                                            <h2 class="title font-Poppins text-center">Register to Setup an Atal Tinkering Lab</h2>
-                                            <h4>Register Now</h4>
-                                        </div><br>
-                                <form action="#" class="form-contact" id="contactForm">
-                                        <div class="row">
-                                            <div class="col-sm-6 col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="p_name" placeholder="First Name" required>
-                                                </div>  
-                                            </div>
-                                            <div class="col-sm-6 col-md-6">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="p_email" placeholder="Last Name" required="">
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-6">
-                                                <div class="form-group">
-                                                    <input type="email" class="form-control" id="p_subject" placeholder="E-Mail">
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-6">
-                                                <div class="form-group">
-                                                    <input type="number" class="form-control" id="p_phone" maxlength="10" placeholder="Mobile Number">
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-12">
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" id="p_phone" placeholder="School Name">
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                             <textarea id="p_message" class="form-control" rows="6" placeholder="Enter Your Message"></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="text-left">
-                                                <div id="success"></div>
-                                                <button type="submit" class="btn btn-primary">SEND</button>
-                                            </div>
-                                        </div>
-                                    </form>	
-                               </div>
-                           
-
-                </div>
-            </div>           
-        </div> <!-- /.content-page-wrap -->
-    </div> <!-- /.container -->
+ 
+<div class="container">
+    
 </div>
+
+
 <!-- =========================== Main Content End ================================= -->
 
 <footer class="footer">

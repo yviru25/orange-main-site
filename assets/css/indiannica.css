@@ -48,6 +48,7 @@ body {
 
 .logo {
 	float: left;
+	margin-top: -4px;
 }
 .logo a {
 	outline:none;

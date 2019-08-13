@@ -32,3 +32,57 @@
 .text{
     margin:20px 0px;
 }
+
+
+
+/*  ==================== Tab Style =============== */
+
+.flat-filter-isotype li.active a, .flat-filter-isotype li a:hover {
+    color: #0d66c7 !important;
+    background: none !important;
+    border-bottom: 1px solid #0d58ab !important;
+}
+.flat-filter-tabs li a {
+    line-height: 57px;
+    background: #fff;
+    font-weight: 700;
+    display: block;
+    padding: 0 34px 0 36px;
+    border-radius: none !important;
+    border-bottom: 1px solid #0d66c7 !important;
+}
+.flat-filter-tabs {
+    margin-bottom: 50px;
+}
+
+.flat-filter-tabs li {
+    display: inline-block;
+    margin: 0 6px;
+    margin-bottom: 30px;
+}
+
+.flat-filter-isotype li a {
+    line-height: 35px !important;
+    background: #fff;
+    border: none !important;
+    font-weight: 700;
+    display: block;
+    padding: 0 0px 0 12px !important;
+    border-radius: none !important;
+}
+.flat-filter-isotype{
+    margin-bottom: 0px !important;
+}
+.course{
+    position: inherit !important;left: 0px;top: 0px;
+}
+
+input:required { 
+    border-left: 2px solid red;
+  }
+  select:required { 
+    border-left: 2px solid red;
+  }
+  textarea:required{
+   border-left: 2px solid red;
+  }
