@@ -13,10 +13,44 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 <link href="../assets/images/logo.ICO" rel="shortcut icon"/>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="olypiad.css">
+<link rel="stylesheet" href="../olympiad/olypiad.css">
 <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
 <link rel="stylesheet" type="text/css" href="../stylesheets/responsive.css">
 <link rel="stylesheet" type="text/css" href="../stylesheets/colors/color1.css" id="colors">
+<style>
+  .flat-filter-isotype{
+     height: 500px;
+     scroll-behavior: smooth;
+     overflow: overlay;
+  }   
+ .flat-filter-isotype li {
+     display: table-header-group;
+ }
+ .widget-categories ul li a:hover, .widget-categories ul li a:hover span{
+     color: white;
+     border-bottom: 1px solid #0d58ab;
+ }
+ .flat-filter-isotype li a {
+     line-height: 57px;
+     background: #fff;
+     border: 1px solid rgba(26,34,125,0.22);
+     font-weight: 700;
+     display: block;
+     color: black;
+     padding: 0 34px 0 36px;
+     border-radius: 4px;
+ }
+ .widget-categories.v2 {
+     padding: 0 0 0 10px;
+     margin-bottom: 43px;
+     height: 500px;
+ }
+ .course {
+     overflow: hidden;
+     padding: 0 0px;
+     margin-bottom: 30px;
+ }
+ </style>
 </head>
 <body>
     <div class="top border-bt-d1d1ff ">
@@ -42,7 +76,7 @@
                     </div> -->
                     <div class="flat-action flat-text-right style2 v2">
                         <ul>
-                            
+                                                   
                             <li><a href="https://www.linkedin.com/company/orangeeducation/" target="_blank"><i class="fab fa-linkedin fa-lg" style="color: #fff;"></i></a></li>
                             <li><a href="https://www.youtube.com/channel/UCJ8hNFMifNZB2r9pnvs-5kw" target="_blank"><i class="fab fa-youtube fa-lg" style="color: #fff;"></i></a></li>
                             <li><a href="javascript:void(0)" data-toggle="modal" data-target="#myModalContact" ><i class="far fa-edit fa-lg"></i></a></li>
@@ -92,18 +126,7 @@
                             </ul>
                         </li>
                         <li>
-                          <a href="#">Olympiad Updates</a>
-                          <ul class="submenu">
-                              <li><a href="schedules.html">Exam Schedules</a></li>
-                              <li><a href="how-to-apply.html">How to Apply</a></li> 
-                              <li><a href="school-regist-form.html">School Registration Form</a></li>    
-                              <li><a href="https://www.amazon.in/s?me=A12N35MCIKUSZF&marketplaceID=A21TJRUUN4KGV" target="https://www.amazon.in/s?me=A12N35MCIKUSZF&marketplaceID=A21TJRUUN4KGV">Buy Books</a></li>
-                              <li><a href="../prepration-material/pyqp.html">Online Practice Test</a></li>
-                              <li><a href="testimonial.html">Testimonial</a></li>
-                              <li><a href="faq.html">FAQ’s  </a></li>  
-                              <li><a href="sample-report.html">Sample Reports</a></li>
-                              <li><a href="rewards.html">Rewards</a></li> 
-                            </ul>
+                            <a href="../nbse/nbse.html">NBSE</a>
                         </li>
                         <li>
                             <a href="../MMA/mma.html">Mind Maps</a></li> <li>
@@ -123,12 +146,12 @@
                               <li><a href="../mind-map/mind-map.html">Mind Maps Assessments</a></li>
                           </ul>
                           </li>
-                        <li>
+                        <li class="active">
                             <a href="#">Events</a>
                             <ul class="submenu">
-                                <li><a href="../events/teacher-workshop.html">Teachers Workshop</a></li>
-                                <li><a href="../events/award-ceremony.html">Award Ceremony </a></li>
-                                <li><a href="../events/employee-meet-annual.html">Employees Annual Meet</a></li>            
+                                <li><a href="teacher-workshop.html">Teachers Workshop</a></li>
+                                <li><a href="award-ceremony.html">Award Ceremony </a></li>
+                                <li><a href="employee-meet-annual.html">Employees Annual Meet</a></li>            
                             </ul>
                         </li>
                         <li><a href="../careers/career.html"><span>Career</span></a></li>
@@ -142,73 +165,70 @@
         </div>
     </div>
     </div>
-  </div> 
+  </div> <!-- #header -->
+
 
 <!-- =========================== Main Content Start ================================= -->
 
-<div class="banner-area pt-130 pb-120 overlay-2">
-    <div>
-      <img src="images/testimonial.png" class="img-responsive" alt="Responsive image" " alt="" />
-    </div> 
+<!-- <div class="banner-area pt-130 pb-120 overlay-2">
+  <div>
+    <img src="Events-Images/award-ceremony.png" class="img-responsive" alt="Responsive image" " alt="" />
+  </div> 
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+          </div>
+      </div>
+  </div>
+</div> -->
+<div class="content-wrap faqs-page">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-            </div>
-        </div>
-    </div>
-</div>
-<div class="breadcrumb-area ptb-25 broder-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="breadcrumb-list text-center text-uppercase">
-                    <ul>
-                        <li><a href="../index.html">home</a><span class="divider"> > </span></li>
-                        <li><a href="#">Olympiad Updates</a></li><span class="divider"> > </span></li>
-                        <li class="active"><a href="#">Testimonial</a></li>
-                    </ul>							
+        <div class="content-page-wrap">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-xs-12">
+                    <div class="flat-faqs">
+                        <div class="heading flat-text-center">
+                            <h2 class="title font-Poppins text-center">Employees Annual Meet</h2>
+                        </div>
+                        <div class="gdlr-core-pbf-element">
+                          <div class="gdlr-core-icon-list-item gdlr-core-item-pdlr gdlr-core-item-pdb clearfix " style="padding-bottom: 25px ;">
+                              <ul>
+                                  <li class=" gdlr-core-skin-divider" style="margin-bottom: 22px ;"><span class="gdlr-core-icon-list-icon-wrap" style="margin-top: 5px ;"><i class="gdlr-core-icon-list-icon fa fa-dot-circle-o" style="color: #e89232 ;font-size: 18px ;width: 18px ;" ></i></span>
+                                      <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 15px ;">
+                                        Orange Education Pvt. Ltd. Organized its <span class="text-bold">Annual Sales Meet 2018-
+                                        19 </span> on <span class="text-bold">June 22, 23 &amp; 24 2018, at Best western Resort Country Club,
+                                        Manesar, Gurugram (Haryana)</span>.
+                                    </span></div>
+                                  </li>
+                                  <li class=" gdlr-core-skin-divider" style="margin-bottom: 22px ;"><span class="gdlr-core-icon-list-icon-wrap" style="margin-top: 5px ;"><i class="gdlr-core-icon-list-icon fa fa-dot-circle-o" style="color: #e89232 ;font-size: 18px ;width: 18px ;" ></i></span>
+                                      <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 15px ;">
+                                        All the Sales team and Backend team of Orange ducation participated in this 3
+                                        day residential event. The sales meet delegates were given warm welcome
+                                        by <span class="text-bold">Mr. Vidit Gupta, Director, Orange Education</span> and Keynote address was
+                                        delivered by <span class="text-bold">Mr. Sandeep Solanki, CEO, Orange Education</span>.
+                                        Both the keynote speakers shared their expertise and knowledge to the Team.
+                                    </span></div>
+                                  </li>
+                                  <li class=" gdlr-core-skin-divider" style="margin-bottom: 22px ;"><span class="gdlr-core-icon-list-icon-wrap" style="margin-top: 5px ;"><i class="gdlr-core-icon-list-icon fa fa-dot-circle-o" style="color: #e89232 ;font-size: 18px ;width: 18px ;" ></i></span>
+                                      <div class="gdlr-core-icon-list-content-wrap"><span class="gdlr-core-icon-list-content" style="font-size: 15px ;">
+                                        The closing remarks were given by <span class="text-bold">Mr. Ankur Gupta, Director, Orange
+                                        Education</span>. The sales meet ended with a lot of takeaways and excellent
+                                        feedback received from the participants.
+                                      </span></div>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                        </div>
                 </div>
-            </div>
-        </div>
-    </div>
+
+
+            </div>           
+        </div> <!-- /.content-page-wrap -->
+    </div> <!-- /.container -->
 </div>
 
-<div class="col-md-12">
-<div class="container">
-<div class="row">
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <a href="testimonial-images/St Andrews Scott, IP Extn.jpg" target="_blank">
-              <img src="testimonial-images/St Andrews Scott, IP Extn.jpg" alt="Lights" style="width:100%">
-             <!--  <div class="caption">
-                <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-              </div> -->
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <a href="testimonial-images/St. Mary_s Delhi.jpg" target="_blank">
-              <img src="testimonial-images/St. Mary_s Delhi.jpg" alt="Nature" style="width:100%">
-             <!--  <div class="caption">
-                <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-              </div> -->
-            </a>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="thumbnail">
-            <a href="testimonial-images/The Cambridge Intl School, Khanpur.jpg" target="_blank">
-              <img src="testimonial-images/The Cambridge Intl School, Khanpur.jpg" alt="Fjords" style="width:100%">
-              <!-- <div class="caption">
-                <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
-              </div> -->
-            </a>
-          </div>
-        </div>
-      </div>
-     </div>     
-</div>
+
 <!-- =========================== Main Content End ================================= -->
 
 <footer class="footer">
@@ -491,8 +511,17 @@
 <script src="../assets/js/custom.me.js"></script>
 <script src="../assets/js/aos.js"></script>
 <script src="../javascript/main.js"></script>
+<script src="../javascript/jquery-isotope.js"></script>
+<script src="../javascript/jquery-fancybox.js"></script>
+<script src="../javascript/imagesloaded.min.js"></script>
+<script>
+setTimeout(function(){ 
+    $(".flat-filter-isotype li.active").click();
+ }, 1000);
+</script>
 </body>
 </html>
+
 
 
 

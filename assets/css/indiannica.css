@@ -562,7 +562,7 @@ body {
 .footer {
     width: 100%;
     float: left;
-    background: #0d58ab;
+    background: #07e9f0;
     padding: 30px 40px 20px 40px;
 }
 
@@ -592,7 +592,7 @@ body {
 }
 .footer_nav a {
 	text-decoration:none;
-	color:#fff;
+	color:#000;
 	font-size:14px;
 	display:block;
 	padding-bottom:5px;
@@ -616,7 +616,7 @@ body {
 	padding:0px 0 20px;
 	margin:0;
 	font-size:20px;
-	color:#fff;
+	color:#000;
 	text-transform:uppercase;
 	color: #666;
 	font-family: Muli,Arial,sans-serif;
@@ -4840,17 +4840,16 @@ button, select {
 .copyright {
 	width:100%;
 	float:left;
-	background:#0d58ab;
+	background:#07e9f0;
 	padding:15px;
-	border-top: solid 1px rgb(26, 59, 150);
+	border-top: solid 1px #03a3a8;
 
 }
 
 .copyright > p {
-	color:#fff;
+	color:#000;
 	font-size:14px;
 	text-align:center;
-	color: #666;
 	font-family: Muli,Arial,sans-serif;
 	margin:0;
 }
