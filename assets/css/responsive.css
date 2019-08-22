@@ -1472,10 +1472,10 @@
         border-right: 380px solid transparent;
     }
     .footer_nav a {
-        color:#d6d6d6;
+        color:#000;
     }
     .copyright > p {
-        color:#d6d6d6;
+        color:#000;
     }
     .about_text_iner {
         padding:0px 0px;
