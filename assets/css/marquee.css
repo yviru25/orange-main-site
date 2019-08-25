@@ -84,7 +84,7 @@ h1 {
 }
 
 .marquee-content-items li:after {
-	content: "|";
+	content: "";
 	margin: 0 1em
 }
 
