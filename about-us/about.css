@@ -302,27 +302,25 @@
 }
 
 .small-img-left {
-  max-width: 50% !important;
+  max-width: 85% !important;
   height: auto;
-  float: left;
+  float: right;
 }
 
 .small-img-right {
-  max-width: 50% !important;
+  max-width: 85% !important;
   height: auto;
-  float: right;
+  float: left;
 }
 
 .small-advsry-img-right {
   max-width: 30% !important;
   height: auto;
-  float: right;
 }
 
 .small-advsry-img-left {
   max-width: 30% !important;
   height: auto;
-  float: left;
 }
 
 @media only screen and (max-width: 600px) {

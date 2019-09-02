@@ -5838,3 +5838,38 @@ marquee:hover {
   .wrap-rating-price a:hover{
 	background-color: blueviolet !important;
  }
+
+
+ .bullets {
+	list-style-type: disc !important;
+	margin-left: 15px !important;
+  }
+.bullets-ogo-card{
+	list-style-type: disc !important;
+	margin-left: 30px !important;
+	margin-bottom: 0px !important;
+}
+
+  .border-strip{
+	background-color: aqua; 
+	height: auto;
+  }
+  .border-strip-blue{
+	background-color: #1E88E5; 
+	height: auto;
+  }
+  .border-strip-blue h2{
+	color: white !important;
+  }
+  .text-label{
+	  padding: 7px;
+  }
+  .text-label-left{
+	padding: -5px;
+	padding-left: 7px;
+  }
+  .text-label-right{
+	padding: -5px;
+	padding-right: 7px;
+  }
+

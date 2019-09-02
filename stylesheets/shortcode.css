@@ -2947,7 +2947,7 @@
 		font-weight: 700;
 		display: block;
 		padding: 0 34px 0 36px;
-		border-radius: 4px;
+		border-radius: 0px;
 	}
 
 	.flat-filter-isotype li.active a,
