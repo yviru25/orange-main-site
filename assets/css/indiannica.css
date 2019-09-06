@@ -5852,19 +5852,18 @@ marquee:hover {
 
   .border-strip{
 	background-color: aqua; 
-	height: auto;
-	height: 100%;
+	padding: 5px 0px 5px 0px;
   }
   .border-strip-blue{
 	background-color: #1E88E5; 
-	height: auto;
+	padding: 5px 0px 5px 0px;
   }
   .border-strip-blue h2{
 	color: white !important;
   }
-  .text-label{
+  /* .text-label{
 	  padding: 7px;
-  }
+  } */
   .text-label-left{
 	padding: -5px;
 	padding-left: 7px;
