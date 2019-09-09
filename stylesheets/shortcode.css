@@ -1793,8 +1793,8 @@
 	.flat-faqs .active.toggle-title:after {
 		transform: translateY(-50%) rotate(90deg);
 		color: #fff;
-		border: 1px solid rgba(243,114,139,0.15);
-		background: #f79270;
+		border: 1px solid #0d58ab;
+		background: #0d58ab;
 	}
 
 /* Transition Hover

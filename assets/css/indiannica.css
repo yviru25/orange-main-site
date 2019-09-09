@@ -258,7 +258,7 @@ body {
     font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
-    margin: 0px 0 50px 0;
+    margin: 0 0 30px 0;
     padding: 0;
     /* color: #fff; */
 }
@@ -413,7 +413,6 @@ body {
 .teacher_engangement {
 	width:100%;
 	float:left;
-	margin-top:30px;
 	position:relative;
 	overflow:hidden;
 	margin-bottom: -10px;
@@ -1544,7 +1543,7 @@ opacity:1;
     width: 100%;
     float: left;
     color: #000;
-    padding: 25px 0px 0px 50px;
+    padding: 0 0px 0px 25px;
     box-sizing: border-box;
     
 }
@@ -1564,7 +1563,7 @@ opacity:1;
 
 .digital_pictures {
 	text-align:center;
-	padding-top:48px;
+	/* padding-top:48px; */
 	padding-bottom:30px;
 }
 .digital_text_box a {
@@ -5872,4 +5871,6 @@ marquee:hover {
 	padding: -5px;
 	padding-right: 7px;
   }
-
+  .section-background{
+	background: #07e9f0;
+  }
