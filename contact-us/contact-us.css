@@ -58,7 +58,10 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-  
+
+#successMessage{
+  color: rgb(26, 150, 26);
+}
   
   
   

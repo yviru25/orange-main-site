@@ -1,4 +1,77 @@
 
+<?php
+
+$message = "";
+
+if(isset($_POST['send_email'])){
+
+// Include and initialize phpmailer class
+
+require 'phpmailer/PHPMailerAutoload.php';
+
+
+$mail = new PHPMailer;
+
+// SMTP configuration
+//$mail->isSMTP();
+$mail->Host = 'smtp.gmail.com';
+$mail->SMTPAuth = true;
+$mail->Username = 'yviru25@gmail.com';
+$mail->Password = 'viruyadav';
+$mail->SMTPSecure = '';
+$mail->Port = 587;
+$mail->SMTPOptions = array(
+    'ssl'=>array(
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => false
+    )
+);
+
+$firstName = $_POST['visitor_name'];
+$lastName = $_POST['visitor_lastname'];
+$visitorEmail = $_POST['visitor_email'];
+$visitorMobile = $_POST['visitor_mobile'];
+$visitorMessage = $_POST['visitor_message'];
+   
+
+$mail->setFrom('yviru25@gmail.com', $firstName);
+ 
+// Add a recipient
+//$mail->addAddress('prateekjn12@gmail.com');
+$mail->addAddress($visitorEmail);
+
+ 
+// Add cc or bcc
+//$mail->addCC('cc@domain.com');
+//$mail->addBCC('bcc@domain.com');
+ 
+// Email subject
+$mail->Subject = 'Greeting From Orange Education';
+ 
+// Set email format to HTML
+$mail->isHTML(true);
+ 
+// Email body content
+$mailContent = '<h1>Hi Sir,<br><br>This message is receiving from Orange Education Pvt Ltd.</p>';
+$mail->Body = $mailContent;
+// Send email
+if(!$mail->send()){
+    
+    $message = "Opps !!! Something went wrong" ;   
+
+}else{
+    $message =  'Thank you for contacting orange education';
+}
+
+}
+
+?> 
+
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -193,42 +266,43 @@
                     <p text-center>OR</p>
                     <p>Please let us know how we can help!</p>
                     <form action="contact-us.php" method="post" class="form-contact" id="contactForm">
-                            <div class="row">
-                                <div class="col-sm-6 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="visitor_name" name="visitor_name" placeholder="First Name" required>
-                                    </div>  
-                                </div>
-                                <div class="col-sm-6 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="visitor_lastname" name="visitor_lastname" placeholder="Last Name" required="">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-6">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" required id="visitor_email" name="visitor_email" placeholder="E-Mail">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required class="form-control" name="visitor_mobile" id="visitor_mobile" maxlength="10" placeholder="Mobile Number">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
+                        <h5 class="text-center" id="successMessage"><?php echo $message ?></h5>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="visitor_name" placeholder="First Name" required>
+                                </div>  
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="visitor_lastname" placeholder="Last Name" required="">
+                                    <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                 <textarea id="visitor_message" name="visitor_message" required class="form-control" rows="6" placeholder="Enter Your Message"></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                            <div class="form-group">
-                                <div class="text-left">
-                                    <div id="success"></div>
-                                    <button type="submit" name="send_email" class="btn btn-primary">SEND MESSAGE</button>
+                            <div class="col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" required id="visitor_email" placeholder="E-Mail">
+                                    <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                        </form>	
+                            <div class="col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' required class="form-control" name="visitor_mobile" id="visitor_mobile" maxlength="10" placeholder="Mobile Number">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                             <textarea id="visitor_message" name="visitor_message" required class="form-control" rows="6" placeholder="Enter Your Message"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="text-left">
+                                <div id="success"></div>
+                                <button type="submit" name="send_email" class="btn btn-primary">SEND MESSAGE</button>
+                            </div>
+                        </div>
+                    </form>	
 
                     
                 </div>
